@@ -38,7 +38,7 @@ select {
   
 #projects {
 	text-align: center;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: Arial, Verdana, sans-serif;
 	border-collapse: collapse;
 	border: 3px solid #ddd;
 	width: 100%;
@@ -54,26 +54,26 @@ select {
 }
 
 #projects tr:hover {
-	opacity: 0.7;
+	opacity: 0.8;
 }
 
 #projects th {
 	padding-top: 12px;
 	padding-bottom: 12px;
 	text-align: center;
-	background-color: gray;
+	background-color: #0d0c0cbd;
 	color: white;
 	font-weight: 800;
 }
 
 .done {
-	background-color: #008000b0;
+	background-color: #4f944dde;
 }
 
 .in-progress {
-	background-color: #6900ff4f;
+	background-color: #0026ff99;
 }
 
 .not-started {
-	background-color: #ff0000d4;
+	background-color: #d61a3cd6;
 }
